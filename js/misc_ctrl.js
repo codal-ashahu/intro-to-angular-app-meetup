@@ -7,5 +7,9 @@
 
     $scope.tasks = ["Take out the trash", "Mow the lawn", "Feed the dog"];
 
+    $scope.addTask = function(task) {
+      $scope.tasks.push(task);
+    };
+
   });
 })();
