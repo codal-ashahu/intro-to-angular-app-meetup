@@ -12,8 +12,8 @@
       $scope.newTask = "";
     };
 
-    $scope.deleteTask = function(task) {
-      var index = $scope.tasks.indexOf(task);
+    $scope.deleteTask = function(index) {
+      // var index = $scope.tasks.indexOf(task);
       $scope.tasks.splice(index, 1);
     };
 
